@@ -10,23 +10,23 @@ function Dashboard() {
         <div className="stats">
 
           <div className="card">
-            <h3>Total Users</h3>
-            <p>25</p>
-          </div>
-
-          <div className="card">
-            <h3>Projects</h3>
+            <h3>Total Projects</h3>
             <p>8</p>
           </div>
 
           <div className="card">
-            <h3>Tasks</h3>
+            <h3>Total Tasks</h3>
             <p>145</p>
           </div>
 
           <div className="card">
-            <h3>Completed</h3>
+            <h3>Completed Tasks</h3>
             <p>70</p>
+          </div>
+
+          <div className="card">
+            <h3>Pending Tasks</h3>
+            <p>75</p>
           </div>
 
         </div>

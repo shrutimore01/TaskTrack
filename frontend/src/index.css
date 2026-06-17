@@ -124,3 +124,208 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+/* Projects Page */
+
+.projects-page {
+  padding: 10px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.page-header h1 {
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+
+.page-header p {
+  color: #181818;
+}
+
+.create-btn,
+.project-form button {
+  background: #0818A8;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.create-btn:hover,
+.project-form button:hover {
+  background: #088F8F;
+}
+
+.project-form-card,
+.project-table-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.project-form-card h2,
+.project-table-card h2 {
+  margin-bottom: 20px;
+}
+
+.project-form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.project-form input,
+.project-form select {
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+.project-form input:focus,
+.project-form select:focus {
+  border-color: #4f46e5;
+}
+
+.project-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.project-table th,
+.project-table td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.project-table th {
+  color: #475569;
+  background: #f8fafc;
+}
+
+.status {
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.status.in-progress {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.status.completed {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.status.planning {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.view-btn,
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 8px 10px;
+  margin-right: 6px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.view-btn {
+  background: #0ea5e9;
+}
+
+.edit-btn {
+  background: #22c55e;
+}
+
+.delete-btn {
+  background: #ef4444;
+}
+.project-card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.project-list-card {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.project-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.project-card-top h3 {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.project-card-top p {
+  color: #64748b;
+  line-height: 1.5;
+}
+
+.project-card-dates {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px 0;
+  color: #475569;
+  font-size: 14px;
+}
+
+.project-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.view-btn,
+.edit-btn,
+.delete-btn {
+  border: none;
+  padding: 9px 13px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.view-btn {
+  background: #0ea5e9;
+}
+
+.edit-btn {
+  background: #22c55e;
+}
+
+.delete-btn {
+  background: #ef4444;
+}
