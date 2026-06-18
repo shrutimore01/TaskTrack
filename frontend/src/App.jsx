@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Tasks from "./pages/Tasks";
 import Users from "./pages/Users";
 import Profile from "./pages/Profile";
+import FileUpload from "./pages/FileUpload";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route path="/users" element={<Users />} />
       <Route path="/profile" element={<Profile />} />
       <Route path="/projects" element={<Projects />} />
+      <Route path="/files" element={<FileUpload />} />
     </Routes>
   );
 }
